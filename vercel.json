@@ -11,5 +11,10 @@
             "src": "(.*)",
             "dest": "lib/main.ts"
         }
-    ]
+    ],
+    "functions": {
+        "lib/main.ts": {
+            "maxDuration": 60
+        }
+    }
 }
