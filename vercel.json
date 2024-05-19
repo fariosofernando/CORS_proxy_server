@@ -1,20 +1,15 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "lib/main.ts",
-            "use": "@vercel/node"
+    "functions": {
+        "lib/main.ts": {
+            "memory": 3009,
+            "maxDuration": 60
         }
-    ],
+    },
     "routes": [
         {
             "src": "(.*)",
             "dest": "lib/main.ts"
         }
-    ],
-    "functions": {
-        "lib/main.ts": {
-            "maxDuration": 60
-        }
-    }
+    ]
 }
