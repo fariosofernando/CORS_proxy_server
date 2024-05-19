@@ -1,8 +1,7 @@
 {
     "version": 2,
     "functions": {
-        "lib/main.ts": {
-            "memory": 3009,
+        "lib/main.ts": { 
             "maxDuration": 60
         }
     },
