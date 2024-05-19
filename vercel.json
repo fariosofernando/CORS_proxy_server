@@ -1,7 +1,7 @@
 {
     "version": 2,
     "functions": {
-        "lib/**/*.ts": {
+        "api/**/*.ts": {
             "memory": 1024,
             "maxDuration": 60
         }
@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "(.*)",
-            "dest": "lib/main.ts"
+            "dest": "api/main.ts"
         }
     ]
 }
